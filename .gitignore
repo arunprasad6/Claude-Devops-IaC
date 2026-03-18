@@ -1,0 +1,31 @@
+# Terraform state and secrets
+*.tfvars
+*.tfvars.json
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate.d/
+
+# Terraform working directory
+.terraform/
+.terraform.lock.hcl
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config (may contain credentials)
+.terraformrc
+terraform.rc
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
